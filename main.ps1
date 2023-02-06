@@ -135,15 +135,8 @@ function Start-PyDrop {
         }
     } else {
         Write-Host "Done!" -ForegroundColor Green
-<<<<<<< HEAD
         Read-Host
     }
 }
 
 Start-PyDrop
-=======
-    }
-}
-
-Start-PyDrop
->>>>>>> 2b9afa7b43171ff8221938e44c9e2d9cf7edda2a
